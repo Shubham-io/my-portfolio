@@ -73,7 +73,7 @@ const Portfolio = () => {
               <p className="font-semibold text-lg text-center mt-2">{name}</p>
             </div>
             <p className="mt-4 px-2 w-full">{brief}</p>
-            <div className="mt-4 ml-3  w-full flex gap-4">
+            <div className="mt-4 md:ml-3 w-full flex items-center justify-around md:justify-start gap-4">
               <button
                 className="bg-blue-600 text-sm hover:bg-blue-500 p-2 rounded-md text-white"
                 onClick={() => window.open(Url)}
