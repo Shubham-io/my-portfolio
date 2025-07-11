@@ -57,7 +57,7 @@ const Home = () => {
 
           <div className="md:w-[35%] order-1 flex flex-col items-center justify-center">
             <img
-              src={assets.profile_pic}
+              src={assets.profile_pic1}
               alt="pic"
               className="rounded-full mt-4 md:ml- md:w-full"
             />

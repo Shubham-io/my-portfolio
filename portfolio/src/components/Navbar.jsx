@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex items-center space-x-2">
          
             <img
-              src={assets.profile_pic}
+              src={assets.profile_pic1}
               className="h-12 w-12 rounded-full cursor-pointer"
               alt="Profile"
             />
