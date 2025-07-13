@@ -19,18 +19,17 @@ const About = () => {
           </h2>
           <ul className="list-disc list-inside text-gray-700 leading-relaxed">
             <li>
-              <strong>B.Tech - CSE | CGPA - 7.7</strong> –
-              Lucknow Institute of Technology, 2025
+              <strong>B.Tech - CSE | CGPA - 7.7</strong> – Lucknow Institute of
+              Technology, 2025
             </li>
             <li>
-              <strong>Intermediate (PCM) - 77%</strong> – Manavta Model Public Inter
-              College, 2020
+              <strong>Intermediate (PCM) - 77%</strong> – Manavta Model Public
+              Inter College, 2020
             </li>
             <li>
-              <strong>High School (Science) - 83%</strong> – Manavta Model Public Inter
-              College, 2020
+              <strong>High School (Science) - 83%</strong> – Manavta Model
+              Public Inter College, 2020
             </li>
-           
           </ul>
         </div>
 
@@ -39,7 +38,7 @@ const About = () => {
           <h2 className="text-2xl font-semibold text-green-600">
             Skills & Expertise
           </h2>
-          
+
           <ul className="list-disc list-inside text-gray-700 leading-relaxed">
             <li>
               <strong>Programming & Frameworks:</strong> JavaScript, React.js,
@@ -55,7 +54,6 @@ const About = () => {
               <strong>Soft Skills:</strong> Problem-Solving, Effective
               Communication, Team Work
             </li>
-            
           </ul>
         </div>
 
@@ -66,18 +64,37 @@ const About = () => {
           </h2>
           <ul className="list-disc list-inside text-gray-700 leading-relaxed">
             <li>
-              <strong>Comprehensive React.js Course</strong> – Infosys, 2024
+              <strong>ReactJS</strong> – Certified by Infosys Springboard | {" "}
+              <a
+                className="underline text-blue-500"
+                href="https://drive.google.com/file/d/1qUKcUUo_nQg6nuIsGKIAP5hK6D4RRLop/view?usp=sharing"
+              >
+                Certification Link
+              </a>
             </li>
             <li>
-              <strong>Introduction to LLMs & Generative AI</strong> – Google
-              Cloud, 2024
-            </li>
-             <li>
-              <strong>Python Programming Training</strong> – Lucknow Institute
-              of Technology 2023
+              <strong>Google Cloud Badge</strong> – By Google Cloud | {" "}
+              <a
+                className="underline text-blue-500"
+                href="https://www.credly.com/badges/36b7ecf0-9990-411f-b29e-065ce54ba066"
+              >
+                Certification Link
+              </a>
             </li>
             <li>
-              <strong>Web Development Certification</strong> – Udemy
+              <strong>JavaScript</strong> – Certified by Scaler |{" "}
+              <a
+                className="underline text-blue-500"
+                href="https://drive.google.com/file/d/1DfiJhGkFIHKS6VIhvRfSk1umwf6nbG4C/view?usp=drive_link"
+              >
+                Certification Link
+              </a>
+            </li>
+            <li>
+              <strong>Web Development</strong> – Certification from Udemy | {" "}
+              <a
+                className=" text-gray-500"
+              >Continuing..</a>
             </li>
           </ul>
         </div>
