@@ -55,14 +55,14 @@ const Portfolio = () => {
       name="Portfolio"
       className="max-w-screen-2xl container mx-auto px-10 md:px-20 py-10"
     >
-      <h1 className="text-4xl font-bold mb-2 text-red-700">Portfolio</h1>
+      <h1 className="text-4xl font-bold mb-2 text-red-700 md:text-start text-center">Portfolio</h1>
       <span className="text-lg">These are my Web development projects</span>
 
       <div className="grid grid-cols-1  md:grid-cols-2 gap-6 text-sm">
         {cardItems.map(({ id, logo, name, brief, Url, liveLink }) => (
           <div
             key={id}
-            className="md:w-[650px] md:h-[300px] flex flex-col justify-center items-center border-[2px] rounded-lg shadow-lg py-2 px-4 mt-6 hover:scale-105 duration-300 cursor-pointer"
+            className="md:w-[650px] md:h-[300px] flex flex-col justify-center items-center border-[2px] rounded-lg shadow-lg py-2 px-4 mt-6 hover:scale-105 hover:shadow-red-200 duration-300 cursor-pointer"
           >
             <div className="w-full flex items-center  px-2 gap-4">
               <img
@@ -72,7 +72,7 @@ const Portfolio = () => {
               />
               <p className="font-semibold text-lg text-center text-red-700 mt-2">{name}</p>
             </div>
-            <p className="mt-4 px-2 w-full">{brief}</p>
+            <p className="mt-4 px-2 w-full text-gray-800">{brief}</p>
             <div className="mt-4 md:ml-3 w-full flex items-center justify-around md:justify-start gap-4">
               <button
                 className="bg-red-700 text-sm hover:bg-red-800 p-2 rounded-md text-white"

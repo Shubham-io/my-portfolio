@@ -7,7 +7,7 @@ const SocialHandles = () => {
     <ul className="flex space-x-4">
       <a href="https://www.instagram.com/shubh_4m/" target="_blank">
         <li>
-          <FaInstagramSquare className="size-8 cursor-pointer hover:scale-110 duration-200" />
+          <FaInstagramSquare className="size-8 cursor-pointer hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
         </li>
       </a>
 
@@ -16,19 +16,19 @@ const SocialHandles = () => {
         target="_blank"
       >
         <li>
-          <FaLinkedin className="size-8 cursor-pointer hover:scale-110 duration-200" />
+          <FaLinkedin className="size-8 cursor-pointer hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
         </li>
       </a>
 
       <a href="https://github.com/Shubham-io" target="_blank">
         <li>
-          <FaGithub className="size-8 cursor-pointer hover:scale-110 duration-200" />
+          <FaGithub className="size-8 cursor-pointer hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
         </li>
       </a>
 
       <a href="https://t.me/shubham_v8" target="_blank">
         <li>
-          <FaTelegram className="size-8 cursor-pointer hover:scale-110 duration-200" />
+          <FaTelegram className="size-8 cursor-pointer hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
         </li>
       </a>
     </ul>

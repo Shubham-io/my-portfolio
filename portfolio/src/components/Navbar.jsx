@@ -25,7 +25,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-2">
             <img
               src={assets.profile_pic1}
-              className="h-12 w-12 rounded-full cursor-pointer"
+              className="h-12 w-12 rounded-full cursor-pointer transition-all duration-300 hover:scale-105"
               alt="Profile"
             />
             <div className="text-sm">

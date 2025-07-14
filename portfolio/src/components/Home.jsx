@@ -66,22 +66,37 @@ const Home = () => {
               <div className="space-y-2 flex flex-col items-center justify-center">
                 <h2 className="text-xl font-semibold">Tech Stack</h2>
                 <div className="flex space-x-4">
-                  <BiLogoMongodb className="size-8 cursor-pointer rounded-full border-[2px] hover:scale-110 duration-200" />
-                  <SiExpress className="size-8 cursor-pointer rounded-full border-[2px] hover:scale-110 duration-200" />
-                  <FaReact className="size-8 cursor-pointer rounded-full border-[2px] hover:scale-110 duration-200" />
-                  <FaNodeJs className="size-8 cursor-pointer rounded-full border-[2px] hover:scale-110 duration-200" />
+                  <BiLogoMongodb className="size-8 cursor-pointer rounded-full border-[2px] hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
+                  <SiExpress className="size-8 cursor-pointer rounded-full border-[2px] hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
+                  <FaReact className="size-8 cursor-pointer rounded-full border-[2px] hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
+                  <FaNodeJs className="size-8 cursor-pointer rounded-full border-[2px] hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="md:w-[35%] order-1 flex flex-col items-center justify-center">
+          {/* <div className="md:w-[35%] order-1 flex flex-col items-center justify-center">
             <img
               src={assets.profile_pic1}
               alt="pic"
-              className="rounded-full mt-4 md:ml- md:w-full"
+              className="rounded-full mt-4 md:w-full shadow-2xl transition-all duration-500 hover:shadow-red-300"
             />
-          </div>
+          </div> */}
+
+  <div className="md:w-[35%] order-1 flex flex-col items-center justify-center">
+  <div className="relative group  w-[300px] h-[300px] md:w-[420px] md:h-[420px] rounded-full animate-breath-glow">
+    {/* Glowing border circle */}
+    <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-red-600 via-transparent to-red-300 opacity-60 blur-lg group-hover:scale-105 transition-all duration-600"></div>
+
+    {/* Profile image */}
+    <img
+      src={assets.profile_pic1}
+      alt="pic"
+      className="rounded-full w-full h-full object-cover relative z-1 shadow-xl"
+    />
+  </div>
+</div>
+ 
         </div>
       </div>
       <hr className="m" />
