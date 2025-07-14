@@ -32,7 +32,7 @@ const Contact = () => {
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
     >
       <div className="text-center mb-12">
-        <h1 className="text-3xl font-bold text-gray-800">Contact Me</h1>
+        <h1 className="text-4xl font-bold text-red-700">Contact Me</h1>
         <p className="text-gray-700 mt-2">
           Please fill out the form below to get in touch.
         </p>
@@ -93,7 +93,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="w-full py-3 bg-black text-white font-semibold rounded-lg hover:bg-gray-900 transition duration-300"
+            className="w-full py-3 bg-red-700 text-white font-semibold rounded-lg hover:bg-red-800 transition duration-300"
           >
             Send Message
           </button>

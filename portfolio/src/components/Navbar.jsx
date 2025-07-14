@@ -12,32 +12,31 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   return (
-    <nav className="w-full px-4 md:px-40 shadow-md fixed top-0 left-0 right-0 z-10 bg-white ">
+    <nav className="w-full px-4 md:px-24 shadow-md fixed top-0 left-0 right-0 z-10 bg-white ">
       <div className="flex justify-between items-center h-16">
         {/* Logo and Title */}
-         <Link
-            to="Home"
-            smooth={true}
-            duration={500}
-            offset={-70}
-            activeClass="active"
-          >
-        <div className="flex items-center space-x-2">
-         
+        <Link
+          to="Home"
+          smooth={true}
+          duration={500}
+          offset={-70}
+          activeClass="active"
+        >
+          <div className="flex items-center space-x-2">
             <img
               src={assets.profile_pic1}
               className="h-12 w-12 rounded-full cursor-pointer"
               alt="Profile"
             />
-          <div>
-            <p className="font-semibold cursor-pointer">Shubham</p>
-            <p className="font-semibold cursor-pointer">Vishwakarma</p>
+            <div className="text-sm">
+              <p className="font-semibold cursor-pointer">Shubham</p>
+              <p className="font-semibold cursor-pointer">Vishwakarma</p>
+            </div>
           </div>
-        </div>
-          </Link>
+        </Link>
 
         {/* Desktop Navbar */}
-        <ul className="hidden md:flex space-x-8   font-medium">
+        <ul className="hidden md:flex space-x-8 font-medium">
           {navItems.map((item, index) => (
             <li
               key={index}
@@ -49,6 +48,7 @@ const Navbar = () => {
                 duration={500}
                 offset={-70}
                 activeClass="active"
+                className="text-red-700 hover:text-red-700"
               >
                 {item}
               </Link>
@@ -81,6 +81,7 @@ const Navbar = () => {
                 offset={-70}
                 activeClass="active"
                 onClick={() => setMenu(!menu)}
+                className="text-red-700 hover:text-red-700"
               >
                 {item}
               </Link>

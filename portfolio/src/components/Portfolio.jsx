@@ -55,7 +55,7 @@ const Portfolio = () => {
       name="Portfolio"
       className="max-w-screen-2xl container mx-auto px-10 md:px-20 py-10"
     >
-      <h1 className="text-3xl font-bold mb-2">Portfolio</h1>
+      <h1 className="text-4xl font-bold mb-2 text-red-700">Portfolio</h1>
       <span className="text-lg">These are my Web development projects</span>
 
       <div className="grid grid-cols-1  md:grid-cols-2 gap-6 text-sm">
@@ -70,18 +70,18 @@ const Portfolio = () => {
                 alt="logo"
                 className="w-28 p-1 border-[2px] shadow-md rounded-lg"
               />
-              <p className="font-semibold text-lg text-center mt-2">{name}</p>
+              <p className="font-semibold text-lg text-center text-red-700 mt-2">{name}</p>
             </div>
             <p className="mt-4 px-2 w-full">{brief}</p>
             <div className="mt-4 md:ml-3 w-full flex items-center justify-around md:justify-start gap-4">
               <button
-                className="bg-blue-600 text-sm hover:bg-blue-500 p-2 rounded-md text-white"
+                className="bg-red-700 text-sm hover:bg-red-800 p-2 rounded-md text-white"
                 onClick={() => window.open(Url)}
               >
                 GitHub Repo
               </button>
               <button
-                className="bg-blue-600 hover:bg-blue-500 text-sm p-2 rounded-md text-white"
+                className="bg-red-700 hover:bg-red-800 text-sm p-2 rounded-md text-white"
                 onClick={() => window.open(liveLink)}
               >
                 Live Demo

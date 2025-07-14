@@ -8,7 +8,7 @@ const TechStack = () => {
       className="max-w-screen-2xl container mx-auto px-10 md:px-20 my-10 py-4"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-2">Tech Stack</h1>
+        <h1 className="text-4xl font-bold mb-2 text-red-700">Tech Stack</h1>
         <p className="text-lg">
           I have worked with mentioned tools and technologies.
         </p>

@@ -9,12 +9,12 @@ const About = () => {
       <div className="py-8 space-y-8">
         {/* About Section */}
         <div>
-          <h1 className="text-4xl font-bold text-gray-800">About Me</h1>
+          <h1 className="text-4xl font-bold text-red-700">About Me</h1>
         </div>
 
         {/* Education & Training */}
         <div>
-          <h2 className="text-2xl font-semibold text-green-600">
+          <h2 className="text-2xl font-semibold">
             Education & Training
           </h2>
           <ul className="list-disc list-inside text-gray-700 leading-relaxed">
@@ -35,7 +35,7 @@ const About = () => {
 
         {/* Skills & Expertise */}
         <div>
-          <h2 className="text-2xl font-semibold text-green-600">
+          <h2 className="text-2xl font-semibold">
             Skills & Expertise
           </h2>
 
@@ -68,7 +68,7 @@ const About = () => {
 
         {/* Achievements & Certifications */}
         <div>
-          <h2 className="text-2xl font-semibold text-green-600">
+          <h2 className="text-2xl font-semibold">
             Achievements & Certifications
           </h2>
           <ul className="list-disc list-inside text-gray-700 leading-relaxed">
@@ -110,7 +110,7 @@ const About = () => {
 
         {/* Mission Statement */}
         <div>
-          <h2 className="text-2xl font-semibold text-green-600">
+          <h2 className="text-2xl font-semibold">
             Mission Statement
           </h2>
           <p className="text-gray-700 leading-relaxed">
