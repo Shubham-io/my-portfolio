@@ -17,7 +17,7 @@ const About = () => {
           <h2 className="text-2xl font-semibold text-green-600">
             Education & Training
           </h2>
-          <ul className="list-disc list-inside text-gray-700 leading-relaxed">
+          <ul className="list-disc list-inside text-gray-700 leading-loose">
             <li>
               <strong>B.Tech - CSE | CGPA - 7.7</strong> – Lucknow Institute of
               Technology, 2025
@@ -39,32 +39,41 @@ const About = () => {
             Skills & Expertise
           </h2>
 
-          <ul className="list-disc list-inside text-gray-700 leading-relaxed">
+          <ul className="list-disc list-inside text-gray-700 leading-loose">
             <li>
-              <strong>Programming & Frameworks:</strong> JavaScript, React.js,
-              Node.js, API Integration, Python
+              <strong>Programming:</strong> JavaScript (ES6+), Python, C, C++
             </li>
             <li>
-              <strong>Web Technologies:</strong> HTML, CSS, Tailwind CSS
+              <strong>Web Technologies:</strong>
+              <ul className="list-disc list-inside ml-6 text-gray-700 leading-relaxed">
+                <li>
+                  <strong>Frontend: </strong> HTML, CSS, Tailwind CSS, React.js
+                </li>
+                <li>
+                  <strong>Backend: </strong> Node.js, Express.js, MongoDB,
+                  RESTful APIs
+                </li>
+              </ul>
             </li>
             <li>
-              <strong>Version Control:</strong> Git & GitHub
+              <strong>Tools & Workflow:</strong> Git & GitHub, Postman, VS Code,
+              AI Tools (e.g., Bolt, Lovable)
             </li>
             <li>
-              <strong>Soft Skills:</strong> Problem-Solving, Effective
-              Communication, Team Work
+              <strong>Soft Skills:</strong> Problem-Solving, Adaptability, Team
+              Collaboration, Clear Communication
             </li>
           </ul>
         </div>
 
         {/* Achievements & Certifications */}
         <div>
-          <h2 className="text-2xl font-semibold text-green-600">
+          <h2 className="text-2xl font-semibold text-green-600 leading-loose">
             Achievements & Certifications
           </h2>
           <ul className="list-disc list-inside text-gray-700 leading-relaxed">
             <li>
-              <strong>ReactJS</strong> – Certified by Infosys Springboard | {" "}
+              <strong>ReactJS</strong> – Certified by Infosys Springboard |{" "}
               <a
                 className="underline text-blue-500"
                 href="https://drive.google.com/file/d/1qUKcUUo_nQg6nuIsGKIAP5hK6D4RRLop/view?usp=sharing"
@@ -73,7 +82,7 @@ const About = () => {
               </a>
             </li>
             <li>
-              <strong>Google Cloud Badge</strong> – By Google Cloud | {" "}
+              <strong>Google Cloud Badge</strong> – By Google Cloud |{" "}
               <a
                 className="underline text-blue-500"
                 href="https://www.credly.com/badges/36b7ecf0-9990-411f-b29e-065ce54ba066"
