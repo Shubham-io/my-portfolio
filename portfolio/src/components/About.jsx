@@ -90,12 +90,12 @@ const About = () => {
                 Certification Link
               </a>
             </li>
-            <li>
+            {/* <li>
               <strong>Web Development</strong> – Certification from Udemy | {" "}
               <a
                 className=" text-gray-500"
               >Continuing..</a>
-            </li>
+            </li> */}
           </ul>
         </div>
 
