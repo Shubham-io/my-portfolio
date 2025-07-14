@@ -11,24 +11,6 @@ export default {
 }
 
 
-// // tailwind.config.js
-// module.exports = {
-//   theme: {
-//     extend: {
-//       keyframes: {
-//         breath: {
-//           '0%, 100%': { transform: 'scale(1)' },
-//           '50%': { transform: 'scale(1.03)' },
-//         },
-//       },
-//       animation: {
-//         breath: 'breath 3s ease-in-out infinite',
-//       },
-//     },
-//   },
-// }
-
-
 // tailwind.config.js
 module.exports = {
   theme: {

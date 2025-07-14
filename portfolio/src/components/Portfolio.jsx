@@ -38,14 +38,7 @@ const Portfolio = () => {
       Url: "https://github.com/Shubham-io/password-manager/tree/main/PasswordManager",
       liveLink: "https://password-manager-73t2.vercel.app",
     },
-    // {
-    //   id: 5,
-    //   logo: assets.quizApp,
-    //   name: "Quiz App",
-    //   brief: "Interactive quiz app with MCQs and scoring.",
-    //   Url: "https://github.com/Shubham-io/React-Projects/tree/master/Intermediate/Quiz%20App",
-    //   liveLink: "https://pulsebit-frontend.vercel.app",
-    // },
+
   ];
 
   console.log(cardItems);
