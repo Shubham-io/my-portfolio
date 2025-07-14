@@ -17,7 +17,7 @@ const About = () => {
           <h2 className="text-2xl font-semibold text-green-600">
             Education & Training
           </h2>
-          <ul className="list-disc list-inside text-gray-700 leading-loose">
+          <ul className="list-disc list-inside text-gray-700 leading-relaxed">
             <li>
               <strong>B.Tech - CSE | CGPA - 7.7</strong> – Lucknow Institute of
               Technology, 2025
@@ -68,7 +68,7 @@ const About = () => {
 
         {/* Achievements & Certifications */}
         <div>
-          <h2 className="text-2xl font-semibold text-green-600 leading-loose">
+          <h2 className="text-2xl font-semibold text-green-600">
             Achievements & Certifications
           </h2>
           <ul className="list-disc list-inside text-gray-700 leading-relaxed">
