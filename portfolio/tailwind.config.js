@@ -22,12 +22,12 @@ module.exports = {
     extend: {
       keyframes: {
         'breath-glow': {
-          '0%, 100%': { transform: 'scale(1)', opacity: '0.7' },
+          '0%, 100%': { transform: 'scale(1)', opacity: '1' },
           '50%': { transform: 'scale(1.05)', opacity: '1' },
         },
       },
       animation: {
-        'breath-glow': 'breath-glow 3s ease-in-out infinite',
+        'breath-glow': 'breath-glow 9s ease-in-out infinite',
       },
     },
   },
