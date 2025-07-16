@@ -12,7 +12,7 @@ const About = () => {
           About Me
         </h1>
 
-        <div className="md:flex block justify-between items-center">
+        <div className="flex flex-col items-center md:flex-row md:justify-between md:items-center">
           {/* Education & Training */}
           <div className="md:w-[600px] md:h-[400px] flex flex-col justify-start  items-start border-[2px] rounded-lg shadow-lg py-7 px-6 mt-6 hover:shadow-red-200 duration-300 cursor-pointer">
             <h2 className="text-2xl font-semibold mb-4">
