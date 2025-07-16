@@ -10,6 +10,8 @@ const Navbar = () => {
   const navItems = ["Home", "About", "Portfolio", "Tech Stack", "Contact"];
 
   const navigate = useNavigate();
+  console.log("test log");
+  
 
   return (
     <nav className="w-full px-4 md:px-24 shadow-md fixed top-0 left-0 right-0 z-10 bg-white ">
