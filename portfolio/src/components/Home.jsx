@@ -45,7 +45,7 @@ const Home = () => {
             <div className="flex justify-center md:justify-start items-center">
               <a
                 className=""
-                href="https://drive.google.com/file/d/1MRQyVLAfO3Dq1xQjFk7Vj-Uq6CIaN1K_/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1Kf6w_SCfmgwmRgXWVlN5C4lps-ey9CBX/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -83,20 +83,19 @@ const Home = () => {
             />
           </div> */}
 
-  <div className="md:w-[35%] order-1 flex flex-col items-center justify-center">
-  <div className="relative group  w-[300px] h-[300px] md:w-[420px] md:h-[420px] rounded-full animate-breath-glow">
-    {/* Glowing border circle */}
-    <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-red-600 via-transparent to-red-300 opacity-60 blur-lg group-hover:scale-105 transition-all duration-600"></div>
+          <div className="md:w-[35%] order-1 flex flex-col items-center justify-center">
+            <div className="relative group  w-[300px] h-[300px] md:w-[420px] md:h-[420px] rounded-full animate-breath-glow">
+              {/* Glowing border circle */}
+              <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-red-600 via-transparent to-red-300 opacity-60 blur-lg group-hover:scale-105 transition-all duration-600"></div>
 
-    {/* Profile image */}
-    <img
-      src={assets.profile_pic1}
-      alt="pic"
-      className="rounded-full w-full h-full object-cover relative z-1 shadow-xl"
-    />
-  </div>
-</div>
- 
+              {/* Profile image */}
+              <img
+                src={assets.profile_pic1}
+                alt="pic"
+                className="rounded-full w-full h-full object-cover relative z-1 shadow-xl"
+              />
+            </div>
+          </div>
         </div>
       </div>
       <hr className="m" />
