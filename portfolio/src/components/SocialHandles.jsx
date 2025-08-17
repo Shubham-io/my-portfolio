@@ -1,38 +1,49 @@
-import { FaInstagramSquare, FaLinkedin, FaGithub, FaTelegram } from "./Icons";
-
-import React from "react";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaTelegramPlane,
+  FaInstagram,
+} from "react-icons/fa";
 
 const SocialHandles = () => {
   return (
-    <ul className="flex space-x-4">
-      <a href="https://www.instagram.com/shubh_4m/" target="_blank">
-        <li>
-          <FaInstagramSquare className="size-8 cursor-pointer hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
-        </li>
-      </a>
-
+    <div className="flex space-x-4">
       <a
         href="https://in.linkedin.com/in/shubhamvishwakarma2002"
         target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-600 hover:text-blue-600 transition-colors duration-200"
       >
-        <li>
-          <FaLinkedin className="size-8 cursor-pointer hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
-        </li>
+        <FaLinkedin className="size-6 hover:scale-110 transition-transform duration-200" />
       </a>
-
-      <a href="https://github.com/Shubham-io" target="_blank">
-        <li>
-          <FaGithub className="size-8 cursor-pointer hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
-        </li>
+      <a
+        href="https://t.me/shubham_v8"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+      >
+        <FaGithub className="size-6 hover:scale-110 transition-transform duration-200" />
       </a>
-
-      <a href="https://t.me/shubham_v8" target="_blank">
-        <li>
-          <FaTelegram className="size-8 cursor-pointer hover:scale-110 shadow-xl hover:shadow-red-300 duration-200" />
-        </li>
+      <a
+        href="https://github.com/Shubham-io"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-600 hover:text-[#0084C8] transition-colors duration-200"
+      >
+        <FaTelegramPlane className="size-6 hover:scale-110 transition-transform duration-200" />
       </a>
-    </ul>
+      <a
+        href="https://www.instagram.com/shubh_4m/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-600 hover:text-pink-500 transition-colors duration-200"
+      >
+        <FaInstagram className="size-6 hover:scale-110 transition-transform duration-200" />
+      </a>
+    </div>
   );
 };
 
 export default SocialHandles;
+
+ 

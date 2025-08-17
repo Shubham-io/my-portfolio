@@ -23,7 +23,6 @@ const App = () => {
           height: 4,
           originX: 0,
           zIndex: 20,
-        
           backgroundColor: "#B91C1C",
         }}
       />
