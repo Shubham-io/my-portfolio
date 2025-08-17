@@ -173,7 +173,7 @@ const Home = () => {
             variants={imageVariants}
           >
             <motion.div
-              className="relative group w-[300px] h-[300px] md:w-[420px] md:h-[420px] rounded-full animate-breath-glow"
+              className="relative group w-[240px] h-[240px] md:w-[420px] md:h-[420px] rounded-full animate-breath-glow"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
@@ -184,7 +184,7 @@ const Home = () => {
               <img
                 src={assets.profile_pic1}
                 alt="pic"
-                className="rounded-full w-[90%] h-[90%] object-cover relative z-1 shadow-md"
+                className="rounded-full md:w-[90%] md:h-[90%] mt-3 md:mt-0 object-cover relative z-1 shadow-md"
               />
             </motion.div>
           </motion.div>
