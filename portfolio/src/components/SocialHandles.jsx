@@ -17,7 +17,7 @@ const SocialHandles = () => {
         <FaLinkedin className="size-6 hover:scale-110 transition-transform duration-200" />
       </a>
       <a
-        href="https://t.me/shubham_v8"
+        href="https://github.com/Shubham-io"
         target="_blank"
         rel="noopener noreferrer"
         className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
@@ -25,7 +25,7 @@ const SocialHandles = () => {
         <FaGithub className="size-6 hover:scale-110 transition-transform duration-200" />
       </a>
       <a
-        href="https://github.com/Shubham-io"
+        href="https://t.me/shubham_v8"
         target="_blank"
         rel="noopener noreferrer"
         className="text-gray-600 hover:text-[#0084C8] transition-colors duration-200"
@@ -45,5 +45,3 @@ const SocialHandles = () => {
 };
 
 export default SocialHandles;
-
- 
